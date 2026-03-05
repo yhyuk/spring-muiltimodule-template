@@ -1,0 +1,24 @@
+plugins {
+    id 'org.springframework.boot'
+}
+
+dependencies {
+    // 내부 모듈 의존
+    implementation project(':common')
+    implementation project(':domain')
+
+    // Springdoc OpenAPI (Swagger) for Spring Boot 3.x
+    implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:${springdocVersion}"
+
+    // Database
+    runtimeOnly 'com.mysql:mysql-connector-j'
+}
+
+bootJar {
+    enabled = true
+    archiveFileName = 'api-sample.jar'
+}
+
+jar {
+    enabled = false
+}

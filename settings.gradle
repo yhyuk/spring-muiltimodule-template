@@ -1,0 +1,5 @@
+rootProject.name = 'spring-multimodule-template'
+
+include 'domain'
+include 'common'
+include 'api-sample'
