@@ -1,0 +1,8 @@
+.gradle
+.idea
+*.iml
+build
+!api-sample/build/libs/api-sample.jar
+logs
+.env
+.DS_Store

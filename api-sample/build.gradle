@@ -10,8 +10,12 @@ dependencies {
     // Springdoc OpenAPI (Swagger) for Spring Boot 3.x
     implementation "org.springdoc:springdoc-openapi-starter-webmvc-ui:${springdocVersion}"
 
+    // Actuator
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
     // Database
     runtimeOnly 'com.mysql:mysql-connector-j'
+    testRuntimeOnly 'com.h2database:h2'
 }
 
 bootJar {

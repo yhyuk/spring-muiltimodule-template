@@ -10,13 +10,6 @@ dependencies {
     // Web
     api 'org.springframework.boot:spring-boot-starter-web'
 
-    // WebClient for external API calls
-    api 'org.springframework.boot:spring-boot-starter-webflux'
-
-    // Database
-    api 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
-    runtimeOnly 'com.mysql:mysql-connector-j'
-
     // Spring Data Commons (for Page, Pageable)
     api 'org.springframework.data:spring-data-commons'
 
