@@ -49,4 +49,4 @@ logs/
 .env.*.local
 
 .omc/
-CLAUDE.md
+CLAUDE.md.claude/
