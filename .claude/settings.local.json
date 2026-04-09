@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /Users/imform-mm-2101/workspace/PERSONAL/spring-multimodule-template/**/*.java)",
+      "Bash(./gradlew clean:*)",
+      "Bash(./gradlew :api-sample:test)",
+      "Bash(./gradlew :api-sample:dependencies --configuration testCompileClasspath)",
+      "Bash(jar tf:*)",
+      "Bash(./gradlew :api-sample:test --tests \"*.SampleControllerTest\")",
+      "Bash(./gradlew :api-sample:test --tests \"*.SampleControllerTest.findAll\" --info)",
+      "Bash(grep -c '```' README.md)",
+      "mcp__plugin_oh-my-claudecode_t__state_list_active",
+      "mcp__plugin_oh-my-claudecode_t__state_clear"
+    ]
+  }
+}
